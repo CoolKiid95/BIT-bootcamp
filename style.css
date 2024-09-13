@@ -1,0 +1,27 @@
+.flex{
+    border: solid 1px black;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 500px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+/* align item y align content son diferentes. item digamos que si usamos center los centra dentro de su row,el align content center lo centraria en el centro de la caja contenedora  */
+/* justify content tiene para center, left, start, right, space around, space between, space evenly */
+/* el non row es por defecto, cuando uno pone display flex, pero se puede cambiar a wrap */
+/* flex direction column pone los elementos en columna - tambien hay column reverse */
+/* el flex wrap, hace que los elementos mantengan su tamaño, no los encoge- */
+/* display: flex, se usa en la caja contenedora de los elementos, aqui es flex */
+/* la propiedad gap se usa para separa elementos en vez de usar margin */
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: solid 1px yellow;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+}
