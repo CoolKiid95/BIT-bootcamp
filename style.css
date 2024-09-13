@@ -25,3 +25,11 @@
     text-align: center;
     align-content: center;
 }
+
+/* comandos terminal de github cuando el repositorio es nuevo
+git init
+git add . (el punto se refiere a todos los archivos)
+git commit -m "first commit"
+git push
+git branch -M main
+*/
